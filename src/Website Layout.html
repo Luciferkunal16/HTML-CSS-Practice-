@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<title>Bridgelabz</title>
+
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .outer-col-1 {
+    background: #D7E8D4;
+    flex: 1;
+  }
+  .outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .inner-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .inner-col {
+    flex: 4;
+  }
+  .inner-row article {
+    min-height: 60vh;
+  }
+  .inner-row aside {
+    background: beige;
+    flex: 1;
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+    
+  }
+  h1{
+      font-size: 50px;
+      font-family: 'Times New Roman', Times, serif;
+      color: darkorange;
+  }
+  article{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color:darkred;
+  }
+</style>
+<body>
+  <nav class="outer-col-1"></nav>
+ 
+ 
+  <div class="outer-col-2">
+  	<header><H1>Bridgelabz is Cool</H1></header>
+      
+    <div class="inner-row">
+        
+      
+      <div class="inner-col">
+          
+    	<article><p> We Are Techi Community</p>
+            <ul>
+                <li>technologist</li>
+                <li>thiners</li>
+                <li>builders</li>
+                <li>coders</li>
+            </ul>
+            <p>
+                Bridgelabz is an AWS recognised incubator and is soley focused on solving tech employability. Over the last 5 years, it has worked with 500+ top tech companies and 2500+ engineers have been hired from Bridgelabz. It has labs in Mumbai and Bangalore. It has partnered with over 500 companies, including Yatra, Capgemini, Meru Cabs, LafargeHolcim, JDA, UrbanLadder, Fullerton India, and RBL bank. Bridgelabz recently won Business World Techtor Award 2020 and secured 2nd position at Global Edtech Startup Awards 2019, India. Also, was selected by the Maharashtra state government as Top 100 Startups 2019. More than 350+ learners placed in last 6 months despite covid downturn while most organizations were not hiring or were laying off!
+            </p></article>
+        
+  		<footer>Footer</footer>
+      </div>
+    	<aside>Aside</aside>
+    </div>
+  </div>
+</body>
+</head>
+</html>
